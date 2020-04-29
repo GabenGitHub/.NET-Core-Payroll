@@ -39,7 +39,5 @@ namespace PayrollSoftware.Classes
         {
             return $"Name of staff: {NameOfStaff} \n Hourly rate: {_hourlyRate} \n Hours worked: {_hoursWorked} \n Basic pay: {BasicPay} \n Total pay: {TotalPay}";
         }
-
-
     }
 }
