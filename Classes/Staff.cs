@@ -37,7 +37,7 @@ namespace PayrollSoftware.Classes
 
         public override string ToString()
         {
-            return $"Hourly rate: {_hourlyRate} \n Hours worked: {_hoursWorked} \n Total pay: {TotalPay} \n Basic pay: {BasicPay} \n Name of staff: {NameOfStaff} \n Hours worked: {HoursWorked}";
+            return $"Name of staff: {NameOfStaff} \n Hourly rate: {_hourlyRate} \n Hours worked: {_hoursWorked} \n Basic pay: {BasicPay} \n Total pay: {TotalPay}";
         }
 
 
