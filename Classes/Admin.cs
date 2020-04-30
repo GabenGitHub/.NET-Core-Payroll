@@ -22,7 +22,7 @@ namespace PayrollSoftware.Classes
 
         public override string ToString()
         {
-            return $"Name of staff: {NameOfStaff} \n Hours worked: {HoursWorked} \n Basic pay: {BasicPay} \n Total pay: {TotalPay}";
+            return $"Name of staff: {NameOfStaff} \nHours worked: {HoursWorked} \nBasic pay: {BasicPay:C} \nTotal pay: {TotalPay:C}";
 
         }
     }

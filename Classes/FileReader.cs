@@ -31,7 +31,7 @@ namespace PayrollSoftware.Classes
             }
             else
             {
-                Console.WriteLine("The file ");
+                Console.WriteLine("Can't find the file");
             }
 
             return myStaff;
